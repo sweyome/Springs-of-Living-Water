@@ -1,0 +1,45 @@
+body {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  line-height: 1.7;
+  color: #000;
+  background-color: #f5f5f5;
+}
+
+.header-primary {
+  color: $main-primary-heading;
+  font-size: 4rem;
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+.heading-secondary {
+  font-size: 3.5rem;
+  color: #f5f5f5;
+}
+
+.heading-tertiary {
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.paragraph {
+  font-size: $default-font-size;
+  font-weight: 200;
+
+  &:not(:last-child) {
+    margin-bottom: 1rem;
+  }
+}
+
+.section-what {
+  &__text-box {
+    text-align: left;
+  }
+
+  &__photo {
+    width: 100%;
+    border-radius: 3px;
+    box-shadow: 0 1.5rem 4rem rgba($color-black, 0.4);
+  }
+}

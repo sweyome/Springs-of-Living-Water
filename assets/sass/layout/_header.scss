@@ -1,0 +1,27 @@
+.header {
+  height: 100vh;
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(196, 57, 57, 0.685),
+      transparent
+    ),
+    url(./../img/hero.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: relative;
+
+  &__text-box {
+    position: absolute;
+    top: 55%;
+    left: 29%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+    padding: 2rem 3rem 2rem 5rem;
+
+    @include respond(tab-land) {
+      left: 31%;
+    }
+  }
+}
