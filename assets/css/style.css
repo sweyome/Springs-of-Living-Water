@@ -98,7 +98,7 @@ body {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2); }
 
 .btn--black {
-  background-color: #000;
+  background-color: none;
   color: #fff; }
   .btn--black::after {
     background-color: rgba(194, 51, 51, 0.932); }
